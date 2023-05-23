@@ -24,8 +24,15 @@ header {
     text-align: center; 
     text-decoration: none; 
     text-transform: uppercase;
+    animation-name: header-animation;
+    animation-duration: 4s;
 
 }
+
+@keyframes header-animation {
+    from {background-color: #1abc9c;}
+    to {background-color: yellow;}
+  }
 
 a {
     text-decoration: none;
@@ -62,3 +69,34 @@ li a:hover:not(.active) {
 .active {
     background-color: #04AA6D;
 }
+
+form.search-box input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.search-box button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #04AA6D;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.search-box button:hover {
+    background: #0b7dda;
+  }
+  
+  form.search-box::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
