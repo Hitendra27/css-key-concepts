@@ -1,0 +1,19 @@
+/*
+Blue (#002349), gold (#957C3D)
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: #957C3D;
+    color: #002349;
+    height: 200px;
+    
+}
