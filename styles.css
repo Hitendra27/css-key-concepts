@@ -5,6 +5,7 @@ Blue (#002349), gold (#957C3D)
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;;
 }
 
 body {
@@ -12,13 +13,19 @@ body {
 }
 
 header {
-    background-color: #957C3D;
-    color: #002349;
+    background: #1abc9c;
+    color: white;
     height: 200px;
+    padding: 60px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 35px;
     font-style: italic;
     font-weight: bold;
     text-align: center; 
     text-decoration: none; 
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
 }
