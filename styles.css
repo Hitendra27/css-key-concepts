@@ -77,7 +77,7 @@ form.search-box input[type=text] {
     float: left;
     width: 80%;
     background: #f1f1f1;
-  }
+}
   
   form.search-box button {
     float: left;
@@ -89,14 +89,36 @@ form.search-box input[type=text] {
     border: 1px solid grey;
     border-left: none;
     cursor: pointer;
-  }
+}
   
   form.search-box button:hover {
     background: #0b7dda;
-  }
+}
   
   form.search-box::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
+
+.Covid-Update {
+    padding: 20px;
+    text-align: center;
+    display: block;
+
+}
+
+.badge {
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 4px;
+    
+}
+
+.Covid-Message {
+    padding: 10px;
+}
+
