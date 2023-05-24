@@ -81,7 +81,7 @@ form.search-box input[type=text] {
     background: #f1f1f1;
 }
   
-  form.search-box button {
+form.search-box button {
     float: left;
     width: 20%;
     padding: 10px;
@@ -93,11 +93,11 @@ form.search-box input[type=text] {
     cursor: pointer;
 }
   
-  form.search-box button:hover {
+form.search-box button:hover {
     background: #0b7dda;
 }
   
-  form.search-box::after {
+form.search-box::after {
     content: "";
     clear: both;
     display: table;
@@ -172,5 +172,34 @@ img:hover {
 
 .welcome-name span {
     color: #703F37;
+}
+
+.welcome-name p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+
+.askMyDoc {
+    display: flex;
+    text-align: center;
+    padding-top: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.askMyDoc h2 {
+    width: 50%;
+}
+
+.video-controls {
+    display: -webkit-box;
+    margin-left: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px; 
 }
 
