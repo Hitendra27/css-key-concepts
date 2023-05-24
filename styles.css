@@ -19,14 +19,16 @@ header {
     padding: 60px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 35px;
-    font-style: italic;
     font-weight: bold;
     text-align: center; 
     text-decoration: none; 
     text-transform: uppercase;
     animation-name: header-animation;
     animation-duration: 4s;
+}
 
+header a{
+    display: block;
 }
 
 @keyframes header-animation {
@@ -129,5 +131,46 @@ form.search-box input[type=text] {
 
 .Covid-Message span {
     text-shadow: 2px 2px 5px red; 
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transform: rotate(5deg)
+}
+
+img:hover {
+    width: 300px;
+    height: 300px;
+} 
+
+.welcome {
+    display: flex;
+    text-align: center;
+
+}
+
+.welcome-name {
+    padding-top: 150px;
+    text-align: center;
+    background-color:  #fee36e;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transform: rotate(-5deg);
+    z-index: -1;
+   
+}
+
+.welcome-name h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 60px;
+    text-align: center;
+    color:  #373e98;
+
+}
+
+.welcome-name span {
+    color: #703F37;
 }
 
