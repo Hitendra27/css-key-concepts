@@ -178,8 +178,7 @@ img:hover {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     padding-top: 25px;
-    padding-bottom: 25px;
-    
+    padding-bottom: 25px; 
 }
 
 .askMyDoc {
@@ -194,6 +193,11 @@ img:hover {
 
 .askMyDoc h2 {
     width: 50%;
+    font-family: Verdana, sans-serif;
+    font-variant: small-caps;
+    font-size: xx-large;
+    text-decoration: underline;
+    color: #373e98;
 }
 
 .video-controls {
