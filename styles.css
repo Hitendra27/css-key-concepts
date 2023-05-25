@@ -94,7 +94,7 @@ form.search-box button {
 }
   
 form.search-box button:hover {
-    background: #0b7dda;
+    background: #45a049;
 }
   
 form.search-box::after {
@@ -221,7 +221,9 @@ img:hover {
     
 }
 
-
+/*
+Form style
+*/
 input[type=text], #dob, #telephone, #email {
     width: 100%;
     padding: 12px;
@@ -238,10 +240,17 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   float: left;
+  margin-top: 10px;
 }
 
 input[type=submit]:hover {
     background-color: #45a049;
-
 }
+
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
 
