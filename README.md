@@ -16,3 +16,8 @@ CSS key concepts:
 8. CSS shorthand properties.
 
 ## Screenshots of the Website.
+<img width="1440" alt="Screenshot 2023-05-25 at 23 20 45" src="https://github.com/Hitendra27/css-key-concepts/assets/73651340/0a49ccc5-3ae0-41e8-90b6-bbf5f7ffab2a">
+<img width="1440" alt="Screenshot 2023-05-25 at 23 20 53" src="https://github.com/Hitendra27/css-key-concepts/assets/73651340/06212ed0-7ad8-4409-98a8-01cf3223cbf2">
+<img width="1440" alt="Screenshot 2023-05-25 at 23 21 00" src="https://github.com/Hitendra27/css-key-concepts/assets/73651340/fad838d1-08d5-4390-b17c-a5d64532a443">
+<img width="1440" alt="Screenshot 2023-05-25 at 23 21 14" src="https://github.com/Hitendra27/css-key-concepts/assets/73651340/bdd1aada-7683-45ae-b59e-b10e6b71cf86">
+<img width="1440" alt="Screenshot 2023-05-25 at 23 21 22" src="https://github.com/Hitendra27/css-key-concepts/assets/73651340/fd419d87-4038-447e-b979-e357af55077c">
