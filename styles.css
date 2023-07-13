@@ -1,244 +1,245 @@
 * {
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 body {
-    background-color: whitesmoke;
+  background-color: whitesmoke;
 }
 
-/* header style */
 header {
-    background: #1abc9c;
-    color: white;
-    height: 200px;
-    padding: 60px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 35px;
-    font-weight: bold;
-    text-align: center; 
-    text-decoration: none; 
-    text-transform: uppercase;
-    animation-name: header-animation;
-    animation-duration: 4s;
+  background: #1abc9c;
+  color: white;
+  height: 200px;
+  padding: 60px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  animation-name: header-animation;
+  animation-duration: 4s;
 }
 
-header a{
-    display: block;
+header a {
+  display: block;
 }
 
 /* header animation */
 @keyframes header-animation {
-    from {background-color: #1abc9c;}
-    to {background-color: yellow;}
+  from {
+    background-color: #1abc9c;
   }
+  to {
+    background-color: yellow;
+  }
+}
 
 /* navbar style */
 a {
-    text-decoration: none;
-    display: inline;
-   
+  text-decoration: none;
+  display: inline;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: sticky;
-    top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
 }
 
 li {
-    float: left;
+  float: left;
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: orange;
+  background-color: orange;
 }
 
 .active {
-    background-color: #04AA6D;
+  background-color: #04aa6d;
 }
 
 /* search input style */
-form.search-box input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
-    float: left;
-    width: 80%;
-    background: #f1f1f1;
+form.search-box input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
 }
-  
+
 form.search-box button {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    background: #04AA6D;
-    color: white;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-left: none;
-    cursor: pointer;
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #04aa6d;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
 }
-  
+
 form.search-box button:hover {
-    background: #45a049;
+  background: #45a049;
 }
-  
+
 form.search-box::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
-/* covid-message style */
-.Covid-Update {
-    padding: 20px;
-    text-align: center;
-    display: block;
-
+/* covidMessage style */
+.covidUpdate {
+  padding: 20px;
+  text-align: center;
+  display: block;
 }
 
 .badge {
-    background-color: red;
-    color: white;
-    padding: 4px 8px;
-    text-align: center;
-    border-radius: 5px;
-    padding-bottom: 4px;  
+  background-color: red;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px;
+  padding-bottom: 4px;
 }
 
-.Covid-Message {
-    padding: 10px;
+.covidMessage {
+  padding: 10px;
 }
 
-.Covid-Message p {
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-weight: bold;
-    font-style: italic;
+.covidMessage p {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+  font-style: italic;
 }
 
-.Covid-Message span {
-    text-shadow: 2px 2px 5px red; 
+.covidMessage span {
+  text-shadow: 2px 2px 5px red;
 }
 
 /* img style */
 img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    transform: rotate(5deg)
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  transform: rotate(5deg);
 }
 
 img:hover {
-    width: 300px;
-    height: 300px;
-} 
+  width: 300px;
+  height: 300px;
+}
 
 .welcome {
-    display: flex;
-    text-align: center;
-
+  display: flex;
+  text-align: center;
 }
 
 /* head style */
-.welcome-name {
-    padding-top: 150px;
-    text-align: center;
-    background-color:  #fee36e;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    transform: rotate(-5deg);
-    z-index: -1;
-   
+.welcomeName {
+  padding-top: 150px;
+  text-align: center;
+  background-color: #fee36e;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transform: rotate(-5deg);
+  z-index: -1;
 }
 
-.welcome-name h1 {
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-size: 60px;
-    text-align: center;
-    color:  #373e98;
-
+.welcomeName h1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 60px;
+  text-align: center;
+  color: #373e98;
 }
 
-.welcome-name span {
-    color: #703F37;
+.welcomeName span {
+  color: #703f37;
 }
 
-.welcome-name p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-transform: uppercase;
-    padding-top: 25px;
-    padding-bottom: 25px; 
+.welcomeName p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 /* askMyDoc section style */
 .askMyDoc {
-    display: flex;
-    text-align: center;
-    padding-top: 25px;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
+  display: flex;
+  text-align: center;
+  padding-top: 25px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 .askMyDoc h2 {
-    width: 50%;
-    font-family: Verdana, sans-serif;
-    font-variant: small-caps;
-    font-size: xx-large;
-    text-decoration: underline;
-    color: #373e98;
+  width: 50%;
+  font-family: Verdana, sans-serif;
+  font-variant: small-caps;
+  font-size: xx-large;
+  text-decoration: underline;
+  color: #373e98;
 }
 
 /* askMyDoc video style */
 .video-controls {
-    display: -webkit-box;
-    margin-left: auto;
-    border: 1px solid #ddd;
-    border-radius: 4px; 
+  display: -webkit-box;
+  margin-left: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
 }
 
 .feedback h2 {
-    font-size: xx-large;
-    text-align: center;
-    padding-top: 20px;
-    color: #04AA6D;
+  font-size: xx-large;
+  text-align: center;
+  padding-top: 20px;
+  color: #04aa6d;
 }
 
 .message-form {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
 
 /*
 Form style
 */
-input[type=text], #dob, #telephone, #email {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
+input[type="text"],
+#dob,
+#telephone,
+#email {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
 }
 
-input[type=submit] {
-  background-color: #04AA6D;
+input[type="submit"] {
+  background-color: #04aa6d;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -248,14 +249,11 @@ input[type=submit] {
   margin-top: 10px;
 }
 
-input[type=submit]:hover {
-    background-color: #45a049;
+input[type="submit"]:hover {
+  background-color: #45a049;
 }
-
 
 label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
 }
-
-
